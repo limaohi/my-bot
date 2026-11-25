@@ -1,8 +1,14 @@
 {
-  "name": "my-bot",
+  "name": "uptime-kuma-pterodactyl",
   "version": "1.0.0",
+  "description": "在 Pterodactyl 低内存(512M)环境中自动安装并启动 Uptime Kuma",
+  "main": "index.js",
   "private": true,
   "scripts": {
     "start": "node index.js"
-  }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
 }
