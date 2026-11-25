@@ -8,7 +8,7 @@ const DATA_DIR = path.join(ROOT_DIR, "kuma-data");
 const DONE_FILE = path.join(APP_DIR, ".pterodactyl-setup-done");
 
 const VERSION = process.env.KUMA_VERSION || "2.5.12";
-const PORT = process.env.SERVER_PORT || process.env.PORT || "3000";
+const PORT = process.env.SERVER_PORT || process.env.PORT || "3001";
 
 // 512M 环境优化
 const INSTALL_HEAP = process.env.INSTALL_HEAP || "384";
